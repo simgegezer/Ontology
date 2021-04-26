@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:3b6f2430-2ccb-45b7-b707-7d882d1849e5#"
+     xml:base="urn:webprotege:ontology:3b6f2430-2ccb-45b7-b707-7d882d1849e5"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:3b6f2430-2ccb-45b7-b707-7d882d1849e5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3ZR6xZY1FiTFstf05bgfF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3ZR6xZY1FiTFstf05bgfF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCMcRkySMLXH8tmmUQvjZBQ"/>
+        <rdfs:label>Ural Kolu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TNW3NdSL1uibYL1u45FJ1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7TNW3NdSL1uibYL1u45FJ1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCMcRkySMLXH8tmmUQvjZBQ"/>
+        <rdfs:label>Altay Kolu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7gypDBb5Vv3znIr1eyk4jw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7gypDBb5Vv3znIr1eyk4jw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7TNW3NdSL1uibYL1u45FJ1"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe&apos;de 29 harf vardır.</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:title>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkiye&apos;nin resmi dilidir.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tr.wikipedia.org/wiki/T%C3%BCrk%C3%A7e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7r88BtFyRqYq1FRBJi5ios -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7r88BtFyRqYq1FRBJi5ios">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcoYIVduMJV1sfxRQqekjM"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Permce&apos;de 53 harf vardır.</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Permce</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Permce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7vGxwgWyglQxYp7PvGoDZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7vGxwgWyglQxYp7PvGoDZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcoYIVduMJV1sfxRQqekjM"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ugorca</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ugorca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UEOypLIfp5SK6GMBWb05n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8UEOypLIfp5SK6GMBWb05n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3ZR6xZY1FiTFstf05bgfF"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samoyed Dilleri</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samoyed Dilleri</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tr.wikipedia.org/wiki/Samoyed_dilleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8oKcncOVUGwL5gTZ4VNLjh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8oKcncOVUGwL5gTZ4VNLjh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7TNW3NdSL1uibYL1u45FJ1"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japonca&apos;da 46 harf vardır.</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japonca</dc:title>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japonya&apos;nın resmi dilidir.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japonca</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tr.wikipedia.org/wiki/Japonca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCdMA7RNYEVHK4w9qzB0ZV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCdMA7RNYEVHK4w9qzB0ZV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7TNW3NdSL1uibYL1u45FJ1"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mançu-Tunguz Dilleri</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mançu-Tunguz Dilleri</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tr.wikipedia.org/wiki/Tunguz_dilleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC90PmB2N3Y4YIXPcWVsMzC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC90PmB2N3Y4YIXPcWVsMzC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7TNW3NdSL1uibYL1u45FJ1"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moğolca</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moğolca</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tr.wikipedia.org/wiki/Mo%C4%9Folca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMcRkySMLXH8tmmUQvjZBQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCMcRkySMLXH8tmmUQvjZBQ">
+        <rdfs:label>Ural - Altay Dil Ailesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcoYIVduMJV1sfxRQqekjM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcoYIVduMJV1sfxRQqekjM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3ZR6xZY1FiTFstf05bgfF"/>
+        <rdfs:label>Fin-Ugor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCg6VEEuSvYhi6OZwhREeRw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCg6VEEuSvYhi6OZwhREeRw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcoYIVduMJV1sfxRQqekjM"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fince&apos;de 21 harf vardır.</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fince</dc:title>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finlandiya&apos;nın resmi dilidir.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fince</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tr.wikipedia.org/wiki/Fince"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDcQYYFSRMmR79UWQYIGjEp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDcQYYFSRMmR79UWQYIGjEp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7TNW3NdSL1uibYL1u45FJ1"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korece&apos;de 35 harf vardır.</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korece</dc:title>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuzey Kore ve Güney Kore&apos;nin resmi dilidir.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korece</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tr.wikipedia.org/wiki/Korece"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZ675XjSglJy7qW5CtEFt8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZ675XjSglJy7qW5CtEFt8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcoYIVduMJV1sfxRQqekjM"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macarca&apos;da 44 harf vardır.</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macarca</dc:title>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaristan&apos;ın resmi dilidir.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macarca</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tr.wikipedia.org/wiki/Macarca"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
